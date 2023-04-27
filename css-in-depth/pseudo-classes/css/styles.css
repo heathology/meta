@@ -47,10 +47,27 @@ input:placeholder-shown {
   font-size: 20px;
 }
 
-li:first-of-type {
+li.super-mario-bros:first-of-type {
   color: lightseagreen;
 }
 
-li:nth-of-type(3) {
+li.family-list:nth-of-type(3) {
   color: red;
+}
+
+li.first-letter::first-letter {
+  color: coral;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.no-list-style {
+  list-style-type: none;
+}
+
+li.first-line-text::first-line {
+  color: lightseagreen;
+  text-decoration: underline;
+  line-height: 1;
 }
