@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <link rel="stylesheet" href="/css-in-depth/pseudo-classes/css/styles.css">
+</head>
+
+<body>
+    <div id="hover-active">
+        <p class="mypage">This is a link:
+            <a href="#">Hover over me</a>
+        </p>
+        <div class="wrapper">
+            <button class="mybutton">Long press and hold this button</button>
+        </div>
+    </div>
+    <div id="form-states">
+        <div class="text-field">
+            <label>Disabled Text Field:</label>
+            <p><input type="text" name="fname" disabled></p>
+        </div>
+        <div id="radio-btns">
+            <label>Input:Checked</label>
+            <p>Male:<input type="radio" name="gender" value="male" checked></p>
+            <p>Female:<input type="radio" name="gender" value="female"></p>
+        </div>
+        <div id="placeholder-shown">
+            <label>Show Placeholder</label>
+            <p><input type="text" name="fname" placeholder="First name"></p>
+        </div>
+        <div id="specific-position-states">
+            <label>Specific Position States: first-of-type</label>
+            <ul>
+                <li> Adrian </li>
+                <li> Mario </li>
+            </ul>
+        </div>
+        <div id="specific-position-states">
+            <label>Specific Position States: nth-of-type</label>
+            <ul>
+                <li> Jesse </li>
+                <li> Roberta </li>
+                <li> Elleah - li:nth-of-type(3) </li>
+                <li> Malik </li>
+                <li> Ellisah </li>
+                <li> Christian </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

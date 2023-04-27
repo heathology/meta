@@ -1,0 +1,56 @@
+.mypage {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a[href] {
+  color: brown;
+}
+
+.mybutton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a:hover {
+  background: brown;
+  color: white;
+}
+
+.mybutton:active {
+  background-color: cornflowerblue;
+  transform: scale(0.99);
+}
+
+#form-states {
+  margin-top: 20px;
+}
+
+input:disabled {
+  background-color: gray;
+}
+
+#radio-btns {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: 600;
+}
+label ~ p {
+  margin-left: 20px;
+}
+input:checked {
+  width: 20px;
+  height: 20px;
+}
+
+input:placeholder-shown {
+  font-size: 20px;
+}
+
+li:first-of-type {
+  color: lightseagreen;
+}
+
+li:nth-of-type(3) {
+  color: red;
+}
