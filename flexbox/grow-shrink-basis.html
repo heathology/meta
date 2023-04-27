@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Reset</a></li>
+            <li><a href="flex.html">Flex</a></li>
+            <li><a href="justify-content.html">Justify-Content</a></li>
+            <li><a href="flex-wrap.html">Flex-Wrap</a>
+                <ul>
+                    <li><a href="flex-wrap.html">Default</a></li>
+                    <li><a href="centered-flex-wrap.html">Justify-Content Flex-Wrap</a></li>
+                </ul>
+            </li>
+            <li><a href="grow-shrink-basis.html">Grow-Shrink-Basis</a></li>
+        </ul>
+    </nav>
+    <h1>CSS Flexbox</h1>
+    <div class="grow-shrink-basis">
+        <div class="box box1"> One..</div>
+        <div class="box box2"> Two..</div>
+        <div class="box box3"> Three..</div>
+        <div class="box box4"> Four..</div>
+        <div class="box box5"> Five..</div>
+        <div class="box box6"> Six..</div>
+        <div class="box box7"> Seven..</div>
+    </div>
+
+    <div>
+        <p>The final set of properties are flex-grow, flex-shrink and flex-basis. Together these determine how the flex
+            takes up
+            space, grows or shrinks according to the space available. These are the sub-properties of a property called
+            flex.</p>
+        <p>Here for the flex-container class, there is a set rule for the flex property. The values correspond to the
+            three
+            properties, namely the flex-grow set to 0, flex-shrink to 1 and flex-basis to auto. The flex-basis sets the
+            initial size
+            of the container. and together they define the rigidity or flexibility and dynamism you want to add to the
+            flexbox.</p>
+    </div>
+
+    <div>
+        <pre>
+            <code>
+            .grow-shrink-basis {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex: 0 1 auto;
+            align-items: flex-end;
+            gap: 10px;
+            }
+            </code>
+        </pre>
+    </div>
+
+    <div>
+        <pre>
+                <code>
+                .box3 {
+                background-color: blanchedalmond;
+                align-self: center;
+                flex: 1 1 auto;
+                }
+                </code>
+            </pre>
+    </div>
+
+    <div>
+        <p>The third box now takes up the entire free space available because flex-growth’s value has been set to 1. So
+            if we have
+            flex-grow set to 1, the children will all set to equal size. And if one of the children has a value of 1.5,
+            that child
+            would take up more space as compared to the others.</p>
+    </div>
+
+    <div>
+        <img src="css-axis.png" alt="css axis" width="790" height="317">
+    </div>
+</body>
+
+</html>
