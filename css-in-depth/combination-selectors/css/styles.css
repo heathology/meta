@@ -1,0 +1,40 @@
+#blog h2 {
+  color: green;
+}
+
+#blog h2 {
+  color: purple;
+}
+
+#membership-levels h3 {
+  color: red;
+}
+
+h4 ~ p {
+  color: blue;
+}
+
+h4 + p {
+  color: rgb(23, 85, 6);
+}
+
+body {
+  color: #333333;
+  background-color: #ee9972;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+div ~ ul {
+  background-color: #edefee;
+  color: #495e57;
+  box-shadow: inset 1px 1px 3px #333333;
+  padding: 27px;
+}
+
+img + p {
+  color: #495e57;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
