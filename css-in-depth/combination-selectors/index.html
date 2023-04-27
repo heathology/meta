@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combination Selectors</title>
+    <link rel="stylesheet" href="/css-in-depth/combination-selectors/css/styles.css">
+</head>
+
+<body>
+    <h1>Combination Selectors</h1>
+    <div id="descendant-selectors">
+        <h2>Descendant Selectors</h2>
+        <div id="blog">
+            <h3>Latest News</h3>
+            <div>
+                <h4>Weather Forecast</h4>
+                <p>The weather will be sunny.</p>
+                <p>Tomorrow will be rainy.</p>
+            </div>
+        </div>
+    </div>
+    <div id="child-selectors">
+        <h2>Child Selectors (>)</h2>
+        <p>Child selectors are more specific than id selectors.</p>
+        <div id="membership-levels">
+            <h3>Membership Levels</h3>
+            <div>
+                <h4>One-on-One Coaching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, asperiores.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, beatae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="general-sibling-selectors">
+        <h2>General Sibling Selectors (~)</h2>
+        <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+        <div id="group-coaching">
+            <h3>Services</h3>
+            <div>
+                <h4>Group Coaching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, asperiores.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, beatae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="adjacent-sibling-selectors">
+        <h2>Adjacent Sibling Selectors (+)</h2>
+        <p>Use adjacent sibling selectors to target only the first, or adjacent, element that follows another element.
+        </p>
+        <div id="relationship-coaching">
+            <h3>Services</h3>
+            <div>
+                <h4>Relationship Coaching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, asperiores.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, beatae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p><b>Basic Info About Little Lemon</b></p>
+        <div>About</div>
+        <ul>
+            <li>Based in Chicago, Illinois</li>
+            <li>The chefs draw inspiration from Italian, Greek, and Turkish culture</li>
+            <li>The restaurant has a rustic and relaxed atmosphere</li>
+        </ul>
+        <p><b>Info about the owners</b></p>
+
+        <div>Employee/Owner</div>
+        <ul>
+            <li>Little Lemon is owned by two Italian Brothers, Mario and Adrian</li>
+            <li>Mario relies on family recipes and his experience as a chef in Italy</li>
+        </ul>
+    </div>
+
+    <div>
+        <img src="/little-lemon/salad.jpeg" alt="salad" width="284" height="213">
+        <p>Salad from LIttle Lemon</p>
+
+        <p>Paragraph tag</p>
+        <p>Another paragraph tag</p>
+
+        <img src="/little-lemon/falafel.jpg" alt="falafel" width="284" height="213">
+        <div>Div tag after Image</div>
+        <p>Paragraph after Div tag</p>
+
+        <img src="/css-in-depth/combination-selectors/img/ok-pizza-1.jpg" alt="pizza" width="284" height="213">
+        <p>Pizza from Little Lemon</p>
+    </div>
+</body>
+
+</html>

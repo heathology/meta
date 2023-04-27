@@ -1,0 +1,40 @@
+/* * selector selects all elements in a web page */
+
+* {
+  color: purple;
+}
+
+/* target link elements with any class 
+a[class] {
+  color: darkgreen;
+} */
+
+/* target link elements with href containing a word 
+a[href*="meta"] {
+  color: darkgreen;
+} */
+
+/* target specific url value */
+a[href="https://about.meta.com/"]
+{
+  color: darkgreen;
+}
+
+/* nth-of-type selectors 
+here, the 2nd li element type is selected */
+li:nth-of-type(2) {
+  color: aqua;
+}
+
+/* nth-child selectrs
+here, the 3rd li element type is selected */
+li:nth-child(3) {
+  color: red;
+}
+
+/* Group Selectors (aka selector stacking) */
+h1,
+p {
+  color: blue;
+  text-align: center;
+}
