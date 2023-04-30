@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+}
+
+.box {
+  background-color: #247;
+  color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 150%;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px; */
+  grid-template-columns: repeat(3, 100px);
+  /* grid-template-rows: 2fr 1fr;*/ /* fr=fraction divides grid */
+  /*grid-auto-rows: 100px;*/
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 10px; /* gap between cells */
+  background-color: #ca6060;
+}
+
+/* typical grid frameworks layout in either 6 or 12 tracks */
