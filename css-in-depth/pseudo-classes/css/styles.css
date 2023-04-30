@@ -1,0 +1,73 @@
+.mypage {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a[href] {
+  color: brown;
+}
+
+.mybutton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a:hover {
+  background: brown;
+  color: white;
+}
+
+.mybutton:active {
+  background-color: cornflowerblue;
+  transform: scale(0.99);
+}
+
+#form-states {
+  margin-top: 20px;
+}
+
+input:disabled {
+  background-color: gray;
+}
+
+#radio-btns {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: 600;
+}
+label ~ p {
+  margin-left: 20px;
+}
+input:checked {
+  width: 20px;
+  height: 20px;
+}
+
+input:placeholder-shown {
+  font-size: 20px;
+}
+
+li.super-mario-bros:first-of-type {
+  color: lightseagreen;
+}
+
+li.family-list:nth-of-type(3) {
+  color: red;
+}
+
+li.first-letter::first-letter {
+  color: coral;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.no-list-style {
+  list-style-type: none;
+}
+
+li.first-line-text::first-line {
+  color: lightseagreen;
+  text-decoration: underline;
+  line-height: 1;
+}
